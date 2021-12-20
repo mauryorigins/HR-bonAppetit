@@ -1,13 +1,11 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
-import gradingStudents from './gradingStudents';
+// Source: https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
+import bonAppetit from './bonAppetit';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [73, 67, 38, 33];
-  const result = gradingStudents(testArray);
-  console.log('Result: ', result);
+  bonAppetit([3, 10, 2, 9], 1, 7);
 }
 
 main();
